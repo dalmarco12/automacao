@@ -13,7 +13,7 @@ body {
     padding-top: 40px;
     position: relative;
     width: 530px;
-    height: 600px;
+    height: 400px;
 	margin-right: auto;
 	margin-top: 0;
 	margin-left: auto;
@@ -106,7 +106,7 @@ div.rele3_desligado {
 #div3 {
 	position: absolute;
 	right: 85px;
-	top: 400px;
+	top: 547px;
     border-radius: 25px;
     border: 2px solid #000000;
     width: 350px;
