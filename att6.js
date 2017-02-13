@@ -40,7 +40,7 @@ function AlteraRele4(){
     if(estado_4 === "0"){
         document.getElementById("estado_4").innerHTML="1";
         document.getElementById("rele_4").innerHTML="<div class='rele4_ligado'></div>";
-		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Cozinha</a>";
+		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Quarto</a>";
     } else {
         document.getElementById("estado_4").innerHTML="0";
         document.getElementById("rele_4").innerHTML="<div class='rele4_desligado'></div>";
@@ -52,7 +52,7 @@ function AlteraRele5(){
     if(estado_5 === "0"){
         document.getElementById("estado_5").innerHTML="1";
         document.getElementById("rele_5").innerHTML="<div class='rele5_ligado'></div>";
-		document.getElementById("botao_5").innerHTML="<a href='/?5_desligar' class='botao_5'>Cozinha</a>";
+		document.getElementById("botao_5").innerHTML="<a href='/?5_desligar' class='botao_5'>Jantar</a>";
     } else {
         document.getElementById("estado_5").innerHTML="0";
         document.getElementById("rele_5").innerHTML="<div class='rele5_desligado'></div>";
