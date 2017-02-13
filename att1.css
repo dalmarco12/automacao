@@ -63,7 +63,7 @@ div.rele2_desligado {
 }
 div.rele3_ligado {
     position: absolute;
-    right: -110px;
+    right: 0px;
     top: 550px;
     width: 300px;
     height: 206px;
@@ -73,7 +73,7 @@ div.rele3_ligado {
 
 div.rele3_desligado {
     position: absolute;
-    right: -110px;
+    right: 0px;
     top: 550px;
     width: 300px;
     height: 206px;
@@ -110,7 +110,6 @@ div.rele3_desligado {
     width: 350px;
     height: 150px; 
 }
-
 
 #botao{
     position: absolute;
