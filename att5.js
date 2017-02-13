@@ -3,11 +3,11 @@ function AlteraRele1(){
     if(estado === "0"){
         document.getElementById("estado").innerHTML="1";
         document.getElementById("rele").innerHTML="<div class='rele1_ligado'></div>";
-		document.getElementById("botao").innerHTML="<a href='/?desligar' class='botao'>Sala Croica</a>";
+		document.getElementById("botao").innerHTML="<a href='/?desligar' class='botao'>Sala de Croica</a>";
     } else {
         document.getElementById("estado").innerHTML="0";
         document.getElementById("rele").innerHTML="<div class='rele1_desligado'></div>";
-        document.getElementById("botao").innerHTML="<a href='/?ligar' class='botao'>Sala Croica</a>";
+        document.getElementById("botao").innerHTML="<a href='/?ligar' class='botao'>Sala de Croica</a>";
     }
 }
 
@@ -33,5 +33,29 @@ function AlteraRele3(){
         document.getElementById("estado_3").innerHTML="0";
         document.getElementById("rele_3").innerHTML="<div class='rele3_desligado'></div>";
         document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Cozinha</a>";
+    }
+}
+function AlteraRele4(){
+    var estado_4 = document.getElementById("estado_4").innerHTML;
+    if(estado_4 === "0"){
+        document.getElementById("estado_4").innerHTML="1";
+        document.getElementById("rele_4").innerHTML="<div class='rele4_ligado'></div>";
+		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Cozinha</a>";
+    } else {
+        document.getElementById("estado_4").innerHTML="0";
+        document.getElementById("rele_4").innerHTML="<div class='rele4_desligado'></div>";
+        document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Quarto</a>";
+    }
+}
+function AlteraRele5(){
+    var estado_5 = document.getElementById("estado_5").innerHTML;
+    if(estado_5 === "0"){
+        document.getElementById("estado_5").innerHTML="1";
+        document.getElementById("rele_5").innerHTML="<div class='rele5_ligado'></div>";
+		document.getElementById("botao_5").innerHTML="<a href='/?5_desligar' class='botao_5'>Cozinha</a>";
+    } else {
+        document.getElementById("estado_5").innerHTML="0";
+        document.getElementById("rele_5").innerHTML="<div class='rele5_desligado'></div>";
+        document.getElementById("botao_5").innerHTML="<a href='/?5_ligar' class='botao_5'>Jantar</a>";
     }
 }
