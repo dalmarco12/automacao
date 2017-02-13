@@ -3,11 +3,11 @@ function AlteraRele1(){
     if(estado === "0"){
         document.getElementById("estado").innerHTML="1";
         document.getElementById("rele").innerHTML="<div class='rele1_ligado'></div>";
-		document.getElementById("botao").innerHTML="<a href='/?desligar' class='botao'>Desliga</a>";
+		document.getElementById("botao").innerHTML="<a href='/?desligar' class='botao'>Sala Croica</a>";
     } else {
         document.getElementById("estado").innerHTML="0";
         document.getElementById("rele").innerHTML="<div class='rele1_desligado'></div>";
-        document.getElementById("botao").innerHTML="<a href='/?ligar' class='botao'>Liga</a>";
+        document.getElementById("botao").innerHTML="<a href='/?ligar' class='botao'>Sala Croica</a>";
     }
 }
 
@@ -16,11 +16,11 @@ function AlteraRele2(){
     if(estado_2 === "0"){
         document.getElementById("estado_2").innerHTML="1";
         document.getElementById("rele_2").innerHTML="<div class='rele2_ligado'></div>";
-		document.getElementById("botao_2").innerHTML="<a href='/?2_desligar' class='botao_2'>Desliga</a>";
+		document.getElementById("botao_2").innerHTML="<a href='/?2_desligar' class='botao_2'>Sala</a>";
     } else {
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("rele_2").innerHTML="<div class='rele2_desligado'></div>";
-        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Liga</a>";
+        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Sala</a>";
     }
 }
 function AlteraRele3(){
@@ -28,10 +28,10 @@ function AlteraRele3(){
     if(estado_3 === "0"){
         document.getElementById("estado_3").innerHTML="1";
         document.getElementById("rele_3").innerHTML="<div class='rele3_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>Desliga</a>";
+		document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>Cozinha</a>";
     } else {
         document.getElementById("estado_3").innerHTML="0";
         document.getElementById("rele_3").innerHTML="<div class='rele3_desligado'></div>";
-        document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Liga</a>";
+        document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Cozinha</a>";
     }
 }
