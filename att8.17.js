@@ -69,7 +69,19 @@ function AlteraRele6(){
     } else {
         document.getElementById("estado_6").innerHTML="0";
         document.getElementById("rele_6").innerHTML="<div class='rele6_desligado'></div>";
-        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'> ^ </a>";
+        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'> Aumenta </a>";
     }
 }
 
+function AlteraRele7(){
+    var estado_7 = document.getElementById("estado_7").innerHTML;
+    if(estado_7 === "0"){
+        document.getElementById("estado_7").innerHTML="1";
+        document.getElementById("rele_7").innerHTML="<div class='rele7_ligado'></div>";
+		document.getElementById("botao_7").innerHTML="<a href='/?7_desligar' class='botao_7'>Liga</a>";
+    } else {
+        document.getElementById("estado_7").innerHTML="0";
+        document.getElementById("rele_7").innerHTML="<div class='rele7_desligado'></div>";
+        document.getElementById("botao_7").innerHTML="<a href='/?7_ligar' class='botao_7'> Diminui </a>";
+    }
+}
