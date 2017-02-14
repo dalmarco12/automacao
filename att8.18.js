@@ -69,7 +69,7 @@ function AlteraRele6(){
     } else {
         document.getElementById("estado_6").innerHTML="0";
         document.getElementById("rele_6").innerHTML="<div class='rele6_desligado'></div>";
-        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'> Aumenta </a>";
+        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'> + </a>";
     }
 }
 
@@ -82,6 +82,6 @@ function AlteraRele7(){
     } else {
         document.getElementById("estado_7").innerHTML="0";
         document.getElementById("rele_7").innerHTML="<div class='rele7_desligado'></div>";
-        document.getElementById("botao_7").innerHTML="<a href='/?7_ligar' class='botao_7'> Diminui </a>";
+        document.getElementById("botao_7").innerHTML="<a href='/?7_ligar' class='botao_7'> - </a>";
     }
 }
