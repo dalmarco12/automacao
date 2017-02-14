@@ -322,7 +322,7 @@ div.rele5_desligado {
 }
 #botao_5 {
     position: absolute;
-    right: 230px;
+    right: 300px;
     top: 918px;
 	 width: 200px;
     height: 256px;
@@ -358,8 +358,8 @@ div.rele5_desligado {
 	
 }#botao_6 {
     position: absolute;
-    right: 230px;
-    top: 958px;
+    right: 300px;
+    top: 988px;
 	 width: 200px;
     height: 256px;
 }
