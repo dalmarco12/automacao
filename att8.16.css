@@ -11,7 +11,7 @@ body {
     padding-top: 4px;
     position: relative;
     width: 530px;
-    height: 2000px;
+    height: 700px;
 	margin-right: auto;
 2	margin-top: 0;
 	margin-left: auto;
@@ -21,6 +21,19 @@ body {
         font-family: arial;
 }
 
+#wrapper2 {
+    padding-top: 4px;
+    position: relative;
+    width: 530px;
+    height: 100px;
+	margin-right: auto;
+2	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: arial;
+}
 div.rele1_ligado {
     position: absolute;
     right: 60px;
