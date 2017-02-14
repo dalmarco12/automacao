@@ -40,11 +40,11 @@ function AlteraRele4(){
     if(estado_4 === "0"){
         document.getElementById("estado_4").innerHTML="1";
         document.getElementById("rele_4").innerHTML="<div class='rele4_ligado'></div>";
-		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Quarto</a>";
+		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Jantar</a>";
     } else {
         document.getElementById("estado_4").innerHTML="0";
         document.getElementById("rele_4").innerHTML="<div class='rele4_desligado'></div>";
-        document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Quarto</a>";
+        document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Jantar</a>";
     }
 }
 function AlteraRele5(){
@@ -52,10 +52,19 @@ function AlteraRele5(){
     if(estado_5 === "0"){
         document.getElementById("estado_5").innerHTML="1";
         document.getElementById("rele_5").innerHTML="<div class='rele5_ligado'></div>";
-		document.getElementById("botao_5").innerHTML="<a href='/?5_desligar' class='botao_5'>Jantar</a>";
+		document.getElementById("botao_5").innerHTML="<a href='/?5_desligar' class='botao_5'>Liga</a>";
     } else {
         document.getElementById("estado_5").innerHTML="0";
         document.getElementById("rele_5").innerHTML="<div class='rele5_desligado'></div>";
-        document.getElementById("botao_5").innerHTML="<a href='/?5_ligar' class='botao_5'>Jantar</a>";
+        document.getElementById("botao_5").innerHTML="<a href='/?5_ligar' class='botao_5'>Desliga</a>";
     }
+}
+
+function AlteraRele6(){
+    var estado_6 = document.getElementById("estado_6").innerHTML;
+    if(estado_6 === "0"){
+        document.getElementById("estado_6").innerHTML="1";
+        document.getElementById("rele_6").innerHTML="<div class='rele6_ligado'></div>";
+		document.getElementById("botao_6").innerHTML="<a href='/?6_Incrementa' class='botao_6'>Liga</a>";
+    } 
 }
