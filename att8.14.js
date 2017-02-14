@@ -65,6 +65,11 @@ function AlteraRele6(){
     if(estado_6 === "0"){
         document.getElementById("estado_6").innerHTML="1";
         document.getElementById("rele_6").innerHTML="<div class='rele6_ligado'></div>";
-		document.getElementById("botao_6").innerHTML="<a href='/?6_Incrementa' class='botao_6'>Liga</a>";
-    } 
+		document.getElementById("botao_6").innerHTML="<a href='/?6_desligar' class='botao_6'>Liga</a>";
+    } else {
+        document.getElementById("estado_6").innerHTML="0";
+        document.getElementById("rele_6").innerHTML="<div class='rele6_desligado'></div>";
+        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'>Desliga</a>";
+    }
 }
+
