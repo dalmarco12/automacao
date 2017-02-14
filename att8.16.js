@@ -69,7 +69,7 @@ function AlteraRele6(){
     } else {
         document.getElementById("estado_6").innerHTML="0";
         document.getElementById("rele_6").innerHTML="<div class='rele6_desligado'></div>";
-        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'>     /\      </a>";
+        document.getElementById("botao_6").innerHTML="<a href='/?6_ligar' class='botao_6'> ^ </a>";
     }
 }
 
