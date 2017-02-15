@@ -55,10 +55,10 @@ body2 {
 }
 div.rele1_ligado {
     position: absolute;
-    right: 60px;
+    right: 260px;
     top: 220px;
-    width: 300px;
-    height: 206px;
+    width: 100px;
+    height: 106px;
     border: none;
 		margin:auto;
     background: url(lampada_desligada.png) no-repeat left top;
@@ -68,8 +68,8 @@ div.rele1_desligado {
     position: absolute;
     right: 60px;
     top: 220px;
-    width: 300px;
-    height: 206px;
+    width: 100px;
+    height: 106px;
     border: none;
 	background: url(lampada_desligada.png) no-repeat left top;
 }
@@ -95,20 +95,20 @@ div.rele2_desligado {
 }
 div.rele3_ligado {
     position: absolute;
-    right: 60px;
+    right: 260px;
     top: 390px;
-    width: 300px;
-    height: 206px;
+    width: 100px;
+    height: 106px;
     border: none;
     background: url(lampada_desligada.png) no-repeat left top;
 }
 
 div.rele3_desligado {
     position: absolute;
-    right: 60px;
+    right: 260px;
     top: 390px;
-    width: 300px;
-    height: 206px;
+    width: 100px;
+    height: 106px;
     border: none;
 	background: url(lampada_desligada.png) no-repeat left top;
 }
