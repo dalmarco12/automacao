@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+body2 {
+0    margin: 0;
+    padding: 0;
+}
+
 #wrapper {
     padding-top: 4px;
     position: relative;
@@ -22,6 +27,20 @@ body {
 }
 
 #wrapper2 {
+    padding-top: 4px;
+    position: relative;
+    width: 530px;
+    height: 100px;
+	margin-right: auto;
+2	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: arial;
+}
+
+#wrapper3 {
     padding-top: 4px;
     position: relative;
     width: 530px;
