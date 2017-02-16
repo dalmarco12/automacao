@@ -141,25 +141,6 @@ div.rele5_desligado {
 	background: url(arcondicionado1.png) no-repeat left top;
 }
 
-div.rele8_ligado {
-    position: absolute;
-    right: 85px;
-    top: 219px;
-    width: 100px;
-    height: 106px;
-    border: none;
-    background: url(cad_fechado.png) no-repeat left top;
-}
-
-div.rele8_desligado {
-    position: absolute;
-    right: 85px;
-    top: 219px;
-    width: 100px;
-    height: 106px;
-    border: none;
-	background: url(cad-aberto.png) no-repeat left top;
-}
 
 #div1 {
 	position: absolute;
@@ -216,8 +197,8 @@ div.rele8_desligado {
 	right: -110px;
 	top: 210px;
     border-radius: 25px;
-    border: 2px solid #000000;
-    width: 710px;
+    border: 4px solid #fff704;
+    width: 510px;
     height: 70px; 
 }
 
