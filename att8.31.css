@@ -194,11 +194,11 @@ div.rele5_desligado {
 
 #div6 {
 	position: absolute;
-	right: 0px;
+	right: -110px;
 	top: 200px;
     border-radius: 25px;
     border: 2px solid #000000;
-    width: 500px;
+    width: 710px;
     height: 70px; 
 }
 
