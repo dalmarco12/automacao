@@ -134,13 +134,32 @@ div.rele5_ligado {
 div.rele5_desligado {
     position: absolute;
     right: 85px;
-    top: 680px;
+    top: 219px;
     width: 100px;
     height: 106px;
     border: none;
 	background: url(arcondicionado1.png) no-repeat left top;
 }
 
+div.rele8_ligado {
+    position: absolute;
+    right: 85px;
+    top: 219px;
+    width: 100px;
+    height: 106px;
+    border: none;
+    background: url(cad_fechado.png) no-repeat left top;
+}
+
+div.rele8_desligado {
+    position: absolute;
+    right: 85px;
+    top: 680px;
+    width: 100px;
+    height: 106px;
+    border: none;
+	background: url(cad_aberto.png) no-repeat left top;
+}
 
 #div1 {
 	position: absolute;
