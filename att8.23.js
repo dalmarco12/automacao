@@ -90,7 +90,7 @@ function AlteraRele8(){
     if(estado_8 === "0"){
         document.getElementById("estado_8").innerHTML="1";
         document.getElementById("rele_8").innerHTML="<div class='rele8_ligado'></div>";
-		document.getElementById("botao_8").innerHTML="<a href='/?8_desligar' class='botao_8'>Desligado</a>";
+		document.getElementById("botao_8").innerHTML="<a href='/?8_desligar' class='botao_8'> Desligado </a>";
     } else {
         document.getElementById("estado_8").innerHTML="0";
         document.getElementById("rele_8").innerHTML="<div class='rele8_desligado'></div>";
