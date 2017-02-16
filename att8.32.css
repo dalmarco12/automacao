@@ -195,7 +195,7 @@ div.rele5_desligado {
 #div6 {
 	position: absolute;
 	right: -110px;
-	top: 200px;
+	top: 210px;
     border-radius: 25px;
     border: 2px solid #000000;
     width: 710px;
@@ -460,8 +460,8 @@ div.rele5_desligado {
 
 #botao_8 {
     position: absolute;
-    right: 5px;
-    top: 209px;
+    right: -100px;
+    top: 219px;
 	 width: 200px;
     height: 256px;
 }
