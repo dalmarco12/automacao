@@ -44,7 +44,7 @@ body2 {
 div.rele1_ligado {
     position: absolute;
     right: 260px;
-    top: 230px;
+    top: 330px;
     width: 100px;
     height: 106px;
     border: none;
@@ -55,7 +55,7 @@ div.rele1_ligado {
 div.rele1_desligado {
     position: absolute;
     right: 260px;
-    top: 230px;
+    top: 330px;
     width: 100px;
     height: 106px;
     border: none;
@@ -65,7 +65,7 @@ div.rele1_desligado {
 div.rele2_ligado {
     position: absolute;
     right: -100px;
-    top: 230px;
+    top: 330px;
     width: 100px;
     height: 106px;
     border: none;
@@ -75,7 +75,7 @@ div.rele2_ligado {
 div.rele2_desligado {
     position: absolute;
     right: -100px;
-    top: 230px;
+    top: 330px;
     width: 100px;
     height: 106px;
     border: none;
@@ -84,7 +84,7 @@ div.rele2_desligado {
 div.rele3_ligado {
     position: absolute;
     right: 260px;
-    top: 390px;
+    top: 490px;
     width: 100px;
     height: 106px;
     border: none;
@@ -94,7 +94,7 @@ div.rele3_ligado {
 div.rele3_desligado {
     position: absolute;
     right: 260px;
-    top: 390px;
+    top: 490px;
     width: 100px;
     height: 106px;
     border: none;
@@ -104,7 +104,7 @@ div.rele3_desligado {
 div.rele4_ligado {
     position: absolute;
     right: -100px;
-    top: 390px;
+    top: 490px;
     width: 100px;
     height: 106px;
     border: none;
@@ -114,7 +114,7 @@ div.rele4_ligado {
 div.rele4_desligado {
     position: absolute;
     right: -100px;
-    top: 390px;
+    top: 490px;
     width: 100px;
     height: 106px;
     border: none;
@@ -124,7 +124,7 @@ div.rele4_desligado {
 div.rele5_ligado {
     position: absolute;
     right: 85px;
-    top: 580px;
+    top: 680px;
     width: 100px;
     height: 106px;
     border: none;
@@ -134,7 +134,7 @@ div.rele5_ligado {
 div.rele5_desligado {
     position: absolute;
     right: 85px;
-    top: 580px;
+    top: 680px;
     width: 100px;
     height: 106px;
     border: none;
@@ -195,7 +195,7 @@ div.rele5_desligado {
 #div6 {
 	position: absolute;
 	right: 0px;
-	top: 125px;
+	top: 200px;
     border-radius: 25px;
     border: 2px solid #000000;
     width: 500px;
@@ -460,8 +460,8 @@ div.rele5_desligado {
 
 #botao_8 {
     position: absolute;
-    right: 30px;
-    top: 190px;
+    right: 5px;
+    top: 209px;
 	 width: 200px;
     height: 256px;
 }
