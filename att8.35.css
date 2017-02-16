@@ -134,7 +134,7 @@ div.rele5_ligado {
 div.rele5_desligado {
     position: absolute;
     right: 85px;
-    top: 219px;
+    top: 680px;
     width: 100px;
     height: 106px;
     border: none;
@@ -154,7 +154,7 @@ div.rele8_ligado {
 div.rele8_desligado {
     position: absolute;
     right: 85px;
-    top: 680px;
+    top: 219px;
     width: 100px;
     height: 106px;
     border: none;
