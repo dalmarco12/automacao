@@ -94,6 +94,6 @@ function AlteraRele8(){
     } else {
         document.getElementById("estado_8").innerHTML="0";
         document.getElementById("rele_8").innerHTML="<div class='rele8_desligado'></div>";
-        document.getElementById("botao_8").innerHTML="<a href='/?8_ligar' class='botao_8'> - </a>";
+        document.getElementById("botao_8").innerHTML="<a href='/?8_ligar' class='botao_8'> Desliga </a>";
     }
 }
