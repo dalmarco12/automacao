@@ -195,11 +195,11 @@ div.rele5_desligado {
 #div6 {
 	position: absolute;
 	right: -110px;
-	top: 210px;
+	top: 190px;
     border-radius: 25px;
     border: 2px solid #000000;
     width: 510px;
-    height: 70px; 
+    height: 90px; 
 }
 
 #botao{
